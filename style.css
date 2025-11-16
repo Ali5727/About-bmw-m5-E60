@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.e60 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-content {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.hero-text {
+  position: absolute;
+  top: 13%;
+  left: 42%;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: "Quicksand", sans-serif;
+}
+.bmw {
+  border-radius: 50%;
+  margin-left: 42%;
+}
+.about {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.about-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: larger;
+  text-align: center;
+  margin: 0 15% 0 15%;
+}
+#skills {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.skill-img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.skill-text h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.skill-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.contact {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 100px;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #000;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  background-color: black;
+  height: 200px;
+}
